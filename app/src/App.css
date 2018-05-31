@@ -1,0 +1,99 @@
+.App-logo {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: App-logo-spin infinite 5.5s linear;
+
+}
+
+.CS-list {
+    background-color: #444446;
+    color: white;
+    padding: 10px;
+}
+
+.App-title {
+    background-color: #444446;
+    color: white;
+    padding: 10px;
+}
+.App-header {
+    background-color: lightgray;
+}
+
+.Gallery {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Image {
+    height: 220px;
+    padding: 45px;
+    
+}
+
+.App-intro {
+    font: Serif;
+    padding: 30px;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: slidein 5s;
+    color: #444446;
+}
+
+.Map {
+    width: 600px;
+    height: 450px;
+    padding: 70px;
+    background-color: lightgrey;
+}
+
+.Contact {
+    font: Serif;
+    font-size: 23px;
+    color: #444446;
+}
+
+.footer {
+    background-color: #444446;
+    height: 52px;
+}
+
+.footText {
+    color: #F2F7F7;
+    padding: 15px;
+    display: flex;
+}
+
+
+@keyframes App-logo-spin {
+    from {transform: rotate(0deg); }
+    to {transform: rotate(360deg);}
+}
+
+@keyframes fontbulger {
+    0%, 100% {
+        font-size: 30px;
+    }
+    50% {font-size: 35px;
+    }
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
